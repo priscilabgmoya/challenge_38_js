@@ -38,6 +38,7 @@ function iniciarContador() {
     segundos.innerText = modificarTiempo(contadorSegundo);
     if (contadorSegundo == 59) {
         contadorSegundo = 0;
+        segundos.innerText = modificarTiempo(contadorSegundo);
         contadorMinuto++;
         minutos.innerText = modificarTiempo(contadorMinuto);
 
